@@ -1,0 +1,8 @@
+a = input('Escreva algo:')
+print(f'O tipo primitivo de \033[31m{a}\033[m é', type(a))
+print(f'\033[31m{a}\033[m é alfanumérico?', a.isalnum())
+print(f'\033[31m{a}\033[m é alfabético?', a.isalpha())
+print(f'\033[31m{a}\033[m é um número?', a.isnumeric())
+print(f'\033[31m{a}\033[m esta somente em letras maiusculas?', a.isupper())
+print(f'\033[31m{a}\033[m esta somente em letras minusculas?', a.islower())
+print(f'\033[31m{a}\033[m esta capitalizado', a.istitle())
